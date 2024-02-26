@@ -1,0 +1,36 @@
+import   turtle as t
+t.speed(6)
+t.lt(90)
+for i in range(3):
+    t.fd(150)
+    t.bk(150)
+    t.rt(120)
+
+t.lt(60)
+for i in range(3):
+    t.fd(22)
+    t.bk(22)
+    t.rt(120)
+t.rt(60)
+t.fd(150)
+t.rt(172.5)
+t.fd(142)
+t.lt(45)
+t.fd(142)
+t.rt(165)
+t.fd(142)
+t.lt(45)
+t.fd(142)
+t.rt(165)
+t.fd(142)
+t.lt(45)
+t.fd(142)
+t.rt(82)
+t.circle(-150)
+t.penup()
+t.goto(0,170)
+t.pendown()
+t.circle(-170)
+t.hideturtle()
+
+
